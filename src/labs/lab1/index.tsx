@@ -90,6 +90,108 @@ export default function Lab1() {
                     </tfoot>
                 </table>
             </div>
+            <div id="ws-images">
+                <h4>Image tag</h4>
+                Loading image from Internet: <br />
+                <img id="wd-starship" width="400px" src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg" />
+                <br />
+                Loading a local image:
+                <br />
+                <img id="wd-react" src="/src/assets/react.svg" height="200px" />
+            </div>
+            <div id="wd-forms">
+                <h4>Form elements</h4>
+                <form id="wd-text-fields">
+                    <h5>Text Fields</h5>
+                    <label htmlFor="wd-text-fields-username">Username:</label>
+                    <input placeholder="Enter user name" id="wd-text-fields-username" /> <br />
+                    <label htmlFor="wd-text-fields-password">Password:</label>
+                    <input type="password" placeholder="Enter password" id="wd-text-fields-password" /> <br />
+                    <label htmlFor="wd-text-fields-first-name">First name:</label>
+                    <input type="text" title="FirstName" id="wd-text-fields-first-name" placeholder="Enter first name" /> <br />
+                    <label htmlFor="wd-text-fields-last-name">Last name:</label>
+                    <input type="text" title="LastName" id="wd-text-fields-last-name" placeholder="Enter last name" /> <br />
+                </form>
+                <h5>Text boxes</h5>
+                <label>Biography:</label> <br />
+                <textarea id="wd-textarea" cols={30} rows={10} placeholder="Enter your biography">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </textarea>
+            </div>
+            <div id="wd-buttons">
+                <h4>Buttons</h4>
+                <button type="button" onClick={() => alert('Life is good!')} id="wd-all-good">Hello World!</button>
+
+                <h5>Radio buttons</h5>
+                <label>Favorite movie genre:</label> <br />
+                <input type="radio" id="wd-radio-comedy" name="wd-radio-genre"/>
+                <label htmlFor="wd-radio-comedy">Comedy</label> <br />
+                <input type="radio" id="wd-radio-drama" name="wd-radio-genre"/>
+                <label htmlFor="wd-radio-drama">Drama</label> <br />
+                <input type="radio" id="wd-radio-scifi" name="wd-radio-genre"/>
+                <label htmlFor="wd-radio-scifi">Science Fiction</label> <br />
+                <input type="radio" id="wd-radio-fantasy" name="wd-radio-genre" />
+                <label htmlFor="wd-radio-fantasy">Fantasy</label> <br />
+
+                <h5>Checkboxes</h5>
+                <label>Favorite movie genre:</label><br />
+                <input type="checkbox" name="check-genre" id="wd-chkbox-comedy" />
+                <label htmlFor="wd-chkbox-comedy">Comedy</label><br />
+                <input type="checkbox" name="check-genre" id="wd-chkbox-drama" />
+                <label htmlFor="wd-chkbox-drama">Drama</label><br />
+                <input type="checkbox" name="check-genre" id="wd-chkbox-scifi" />
+                <label htmlFor="wd-chkbox-scifi">Science Fiction</label><br />
+                <input type="checkbox" name="check-genre" id="wd-chkbox-fantasy" />
+                <label htmlFor="wd-chkbox-fantasy">Fantasy</label>
+
+                <h4>Dropdowns</h4>
+                <h5>Select one</h5>
+                <label htmlFor="wd-select-one-genre"> Favorite movie genre: </label><br />
+                <select id="wd-select-one-genre">
+                    <option value="COMEDY">Comedy</option>
+                    <option value="DRAMA">Drama</option>
+                    <option selected value="SCIFI">
+                        Science Fiction</option>
+                    <option value="FANTASY">Fantasy</option>
+                </select>
+
+                <h5>Select many</h5>
+                <label htmlFor="wd-select-many-genre"> Favorite movie genres: </label><br />
+                <select multiple id="wd-select-many-genre">
+                    <option value="COMEDY" selected> Comedy          </option>
+                    <option value="DRAMA">           Drama           </option>
+                    <option value="SCIFI" selected> Science Fiction </option>
+                    <option value="FANTASY">         Fantasy         </option>
+                </select>
+            </div>
+            <div id="wd-other">
+                <h4>Other HTML field types</h4>
+
+                <label htmlFor="wd-text-fields-email"> Email: </label>
+                <input type="email"
+                    placeholder="your email here"
+                    id="wd-text-fields-email" /><br />
+
+                <label htmlFor="wd-text-fields-salary-start"> Starting salary:</label>
+                <input type="number"
+                    placeholder="10000"
+                    id="wd-text-fields-salary-start" /><br />
+
+                <label htmlFor="wd-text-fields-rating"> Rating: </label>
+                <input type="range"
+                    max="5"
+                    placeholder="Doe"
+                    id="wd-text-fields-rating" /><br />
+
+                <label htmlFor="wd-text-fields-dob"> Date of birth: </label>
+                <input type="date"
+                    id="wd-text-fields-dob" /><br />
+                
+                <h4>Anchor tag</h4>
+                Please
+                <a href="https://www.lipsum.com" id="wd-lipsum"> click here </a>
+                to get dummy text<br />
+            </div>
         </div>
     );
 }
