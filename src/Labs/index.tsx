@@ -7,7 +7,7 @@ import { Route, Routes, Navigate } from "react-router";
 export default function Labs() { 
     return (
         <div id="wd-labs">
-            <h1>Select Labs.</h1>
+            <h1>Welcome to Web Dev</h1>
             Runyuan Feng
             <TOC />
             <Routes>
