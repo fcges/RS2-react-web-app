@@ -93,7 +93,7 @@ export default function AssignmentEditor() {
                 </tr>
             </table>
             <hr />
-            <div>
+            <div style={{ textAlign: "right" }}>
                 <button type="button" id="wd-editor-cancel">Cancel</button>
                 <button type="button" id="wd-editor-save">Save</button>
             </div>

@@ -71,16 +71,34 @@ export default function Lab1() {
                         <tr>
                             <td>Q1</td>
                             <td>HTML</td>
-                            <td>2/3/21</td>
+                            <td>7/3/25</td>
                             <td>85</td>
                         </tr>
                         <tr>
                             <td>Q2</td>
                             <td>CSS</td>
-                            <td>2/10/21</td>
+                            <td>7/10/25</td>
+                            <td>90</td>
+                        </tr>
+                        <tr>
+                            <td>Q3</td>
+                            <td>REACT</td>
+                            <td>7/17/25</td>
+                            <td>95</td>
+                        </tr>
+                        <tr>
+                            <td>Q4</td>
+                            <td>JAVASCRIPT</td>
+                            <td>7/24/25</td>
                             <td>90</td>
                         </tr>
                         <tr> ... </tr>
+                        <tr>
+                            <td>Q10</td>
+                            <td>FINAL PROJECT</td>
+                            <td>8/15/25</td>
+                            <td>90</td>
+                        </tr>
                     </tbody>
                     <tfoot>
                         <tr>
@@ -97,7 +115,7 @@ export default function Lab1() {
                 <br />
                 Loading a local image:
                 <br />
-                <img id="wd-react" src="/src/assets/react.svg" height="200px" />
+                <img id="wd-react" src="/images/teslabot.jpg" height="200px" />
             </div>
             <div id="wd-forms">
                 <h4>Form elements</h4>
