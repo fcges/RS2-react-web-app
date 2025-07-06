@@ -4,6 +4,18 @@ export default function Lab1() {
             <h2>Lab 1</h2>
             <p>Welcome to Lab 1!</p>
             <div id="wd-p-tag">
+                <h4>Heading Tags</h4>
+                <p id="wd-heading">
+                    Text documents are often broken up into several sections and subsections.
+                    Each section is usually prefaced with a short title or heading that attempts
+                    to summarize the topic of the section it precedes.
+                    For instance this paragraph is preceded by the heading Heading Tags.
+                    The font of the section headings are usually larger and bolder than their subsection headings.
+                    This document uses headings to introduce topics such as HTML Documents, HTML Tags, Heading Tags, etc.
+                    HTML heading tags can be used to format plain text so that it renders in a browser as large headings.
+                    There are 6 heading tags for different sizes: h1, h2, h3, h4, h5, and h6.
+                    Tag h1 is the largest heading and h6 is the smallest heading.
+                </p>
                 <h4>Paragraph Tag</h4>
                 <p id="wd-p-1">
                     This is the first paragraph. The paragraph tag is used to format
@@ -54,6 +66,7 @@ export default function Lab1() {
                 <ul id="wd-your-books">
                     <li>The Catcher in the Rye</li>
                     <li>El ingenioso hidalgo don Quijote de la Mancha</li>
+                    <li>Cien años de soledad</li>
                 </ul>
             </div>
             <div id="wd-tables">
@@ -92,7 +105,36 @@ export default function Lab1() {
                             <td>7/24/25</td>
                             <td>90</td>
                         </tr>
-                        <tr> ... </tr>
+                        <tr>
+                            <td>Q5</td>
+                            <td>DATA</td>
+                            <td>7/27/25</td>
+                            <td>90</td>
+                        </tr>
+                        <tr>
+                            <td>Q6</td>
+                            <td>STATE</td>
+                            <td>8/1/25</td>
+                            <td>90</td>
+                        </tr>
+                        <tr>
+                            <td>Q7</td>
+                            <td>API</td>
+                            <td>8/3/25</td>
+                            <td>90</td>
+                        </tr>
+                        <tr>
+                            <td>Q8</td>
+                            <td>SERVER</td>
+                            <td>8/7/25</td>
+                            <td>90</td>
+                        </tr>
+                        <tr>
+                            <td>Q9</td>
+                            <td>DATABASE</td>
+                            <td>8/10/25</td>
+                            <td>90</td>
+                        </tr>
                         <tr>
                             <td>Q10</td>
                             <td>FINAL PROJECT</td>
@@ -124,11 +166,11 @@ export default function Lab1() {
                     <label htmlFor="wd-text-fields-username">Username:</label>
                     <input placeholder="Enter user name" id="wd-text-fields-username" /> <br />
                     <label htmlFor="wd-text-fields-password">Password:</label>
-                    <input type="password" placeholder="Enter password" id="wd-text-fields-password" /> <br />
+                    <input type="password" placeholder="Enter password" id="wd-text-fields-password" value="123@#$asd" /> <br />
                     <label htmlFor="wd-text-fields-first-name">First name:</label>
-                    <input type="text" title="FirstName" id="wd-text-fields-first-name" placeholder="Enter first name" /> <br />
+                    <input type="text" title="FirstName" id="wd-text-fields-first-name"/> <br />
                     <label htmlFor="wd-text-fields-last-name">Last name:</label>
-                    <input type="text" title="LastName" id="wd-text-fields-last-name" placeholder="Enter last name" /> <br />
+                    <input type="text" title="LastName" id="wd-text-fields-last-name" placeholder="Enter last name" value="Wonderland"/> <br />
                 </form>
                 <h5>Text boxes</h5>
                 <label>Biography:</label> <br />
@@ -209,6 +251,9 @@ export default function Lab1() {
                 Please
                 <a href="https://www.lipsum.com" id="wd-lipsum"> click here </a>
                 to get dummy text<br />
+                Please
+                <a href="https://github.com/fcges/RS2-react-web-app" id="wd-github"> click here </a>
+                to reach my github repository
             </div>
         </div>
     );

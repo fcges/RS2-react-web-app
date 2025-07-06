@@ -8,7 +8,7 @@ export default function TOC() {
             <li><Link to="/Labs/Lab2">Lab 2</Link></li>
             <li><Link to="/Labs/Lab3">Lab 3</Link></li>
             <li><Link to="/Kambaz">Kambaz</Link></li>
-            <li><a href="https://github.com/fcges/RS2-react-web-app" id="wd-github">Github</a></li>
+            <li><a href="https://github.com/fcges/RS2-react-web-app" id="wd-github-toc">Github</a></li>
         </ul>
     );
 }
