@@ -168,9 +168,11 @@ export default function Lab1() {
                     <label htmlFor="wd-text-fields-password">Password:</label>
                     <input type="password" placeholder="Enter password" id="wd-text-fields-password" value="123@#$asd" /> <br />
                     <label htmlFor="wd-text-fields-first-name">First name:</label>
-                    <input type="text" title="FirstName" id="wd-text-fields-first-name"/> <br />
+                    <input type="text" title="FirstName" id="wd-text-fields-first-name" /> <br />
                     <label htmlFor="wd-text-fields-last-name">Last name:</label>
-                    <input type="text" title="LastName" id="wd-text-fields-last-name" placeholder="Enter last name" value="Wonderland"/> <br />
+                    <input type="text" title="LastName" id="wd-text-fields-last-name" placeholder="Enter last name" value="Wonderland" /> <br />
+                    <label htmlFor="wd-file-upload">File Upload:</label> <br />
+                    <input type="file" id="wd-file-upload" />
                 </form>
                 <h5>Text boxes</h5>
                 <label>Biography:</label> <br />
@@ -184,11 +186,11 @@ export default function Lab1() {
 
                 <h5>Radio buttons</h5>
                 <label>Favorite movie genre:</label> <br />
-                <input type="radio" id="wd-radio-comedy" name="wd-radio-genre"/>
+                <input type="radio" id="wd-radio-comedy" name="wd-radio-genre" />
                 <label htmlFor="wd-radio-comedy">Comedy</label> <br />
-                <input type="radio" id="wd-radio-drama" name="wd-radio-genre"/>
+                <input type="radio" id="wd-radio-drama" name="wd-radio-genre" />
                 <label htmlFor="wd-radio-drama">Drama</label> <br />
-                <input type="radio" id="wd-radio-scifi" name="wd-radio-genre"/>
+                <input type="radio" id="wd-radio-scifi" name="wd-radio-genre" />
                 <label htmlFor="wd-radio-scifi">Science Fiction</label> <br />
                 <input type="radio" id="wd-radio-fantasy" name="wd-radio-genre" />
                 <label htmlFor="wd-radio-fantasy">Fantasy</label> <br />
@@ -246,7 +248,7 @@ export default function Lab1() {
                 <label htmlFor="wd-text-fields-dob"> Date of birth: </label>
                 <input type="date"
                     id="wd-text-fields-dob" /><br />
-                
+
                 <h4>Anchor tag</h4>
                 Please
                 <a href="https://www.lipsum.com" id="wd-lipsum"> click here </a>
