@@ -1,4 +1,3 @@
-import React from "react";
 import { FaUserCircle } from "react-icons/fa";
 import { Table } from "react-bootstrap";
 export default function PeopleTable() {
