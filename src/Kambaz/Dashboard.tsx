@@ -18,7 +18,7 @@ export default function Dashboard() {
                                 text-decoration-none text-dark">
                                     <Card.Img variant="top" src="/images/reactjs.jpg" width={160} />
                                     <Card.Body>
-                                        <Card.Title className="wd-dashboard-course-title text-nowrap overflow-hidden">
+                                        <Card.Title className="wd-dashboard-course-title text-nowrap overflow-hidden text-truncate">
                                             {course.name}</Card.Title>
                                         <Card.Text className="wd-dashboard-course-description overflow-hidden" style={{ height: "100px" }}>
                                             {course.description}</Card.Text>
